@@ -15,12 +15,15 @@ So I made this tool hoping to have a good experience when reviewing my tweets.
 
 Offline, simple, neat, easy to use, easy to modify and powerful.
 
-## Uasge
+## Usage
 
 1. Download your twitter archive and unzip it;
 2. Download/clone this repo and open the `viewer.html` in a browser;
-3. Select and open the `data/tweet.js` in your unzipped archive folder;
-4. Have fun~
+3. Enter your twitter username in the input box and click “OK”;
+4. Select and open the `data/tweet.js` in your unzipped archive folder;
+5. Have fun~
+
+Note: you can type “Bob” as the username and then select the `tweet_example.js` to test its features.
 
 ## Acknowledgement
 
