@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="./assets/style.css" />
+<title>Tweets Viewer</title>
+</head>
+<body>
+<div id="tweets-line-container">
+<fieldset>
+Username: @
+<input type="text" placeholder="Case Sensitive" id="username">
+<button onclick="submitNreset(this)">OK</button>
+<br>Select the file: <label>tweet.js
+<input accept="application/javascript" id="tweet-file-input" type="file" style="display:none">
+</label>
+<br>Sort: <button class="sort-tweet" data-sort="t-id">by id / time</button>
+<br>Search (tweet full text): <input placeholder="space as logical AND" class="search-tweet">
+</fieldset>
+<div class="tweets-line"></div>
+</div>
+<template id="tweet-card">
+    <div class="tweet">
+        <div class="reply-to"></div>
+        <div class="info">
+            🕗 <span class="datetime"></span>&emsp;
+            🪪 <span class="t-id"></span>
+        </div>
+        <div class="full-text"></div>
+        <div class="replyed"></div>
+    </div>
+</template>
+<script type="text/javascript" src="./assets/list.js"></script>
+<script type="text/javascript" src="./assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+fieldset {
+    line-height: 150%;
+    background-color: #fef9e7;
+    font-size: 20px;
+}
+label, button {
+    background-color: #f1f2ea;
+    border: 1px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+input {
+    background-color: #fcfcfc;
+    font-size: 18px;
+}
+.tweet {
+    border: solid;
+    border-radius: 5px;
+    margin: 20px 15%;
+    padding: 10px;
+    background-color: #eafaf1;
+}
+.reply-to, .info, .replyed {
+    color: #404040;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.reply-to, .replyed {
+    background-color: #d1f2eb;
+}
+.full-text {
+    color: #000000;
+    font-size: 22px;
+    margin: 18px 0px;
+}
+
